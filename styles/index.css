@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+* {
+  color: white;
+}
+
+hr {
+  border-top: 4px dashed rgb(4, 0, 255);
+}
+
+textarea {
+  resize: none;
+}
+
+/* Your specific class name */
+.custom-div {
+  position: relative;
+  /* margin-top: 7%;
+  margin-bottom: 4%; */
+  margin: 7% auto 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.custom-line {
+  width: 1663px;
+  height: 1px !important;
+  background: linear-gradient(270deg, rgba(123, 97, 255, 0.76) 0%, #FFF 52.08%, rgba(123, 97, 255, 0.76) 100%);
+}

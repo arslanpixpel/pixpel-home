@@ -1,0 +1,60 @@
+.launchpad_hover:hover {
+    background: url("../../../public/assets/images/launchpad-blue.svg");
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.launchpad_image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.launchpad_image:hover {
+    content: url('../../../public/assets/images/launchpad-blue.svg');
+}
+
+.market_place:hover {
+    content: url("../../../public/assets/images/marketplace-blue.svg");
+}
+
+/* .inventory:hover {
+    content: url("../../../public/assets/images/inventory-blue.svg");
+} */
+
+.cart_blue:hover {
+    content: url("../../../public/assets/images/cart.svg");
+}
+
+.wallet:hover {
+    content: url("../../../public/assets/images/wallet-blue.svg");
+}
+
+.profile:hover {
+    content: url("../../../public/assets/images/profile-blue.svg");
+}
+
+.notification:hover {
+    content: url("../../../public/assets/images/notification-blue.svg");
+}
+
+.game:hover {
+    content: url("../../../public/assets/images/gamedashboard-blue.svg");
+}
+
+.factory:hover {
+    content: url("../../../public/assets/images/nftfactory-blue.svg");
+}
+
+.image-container:hover .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+}
